@@ -173,3 +173,41 @@ h3 {
     padding-left: 70%;
     font-size: 24px;
 }
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.cta {
+    min-width: 70%;
+    min-height: 150px;
+    max-height: auto;
+    background-color:#3882f6;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+margin-left: 150px;
+}
+
+.text p:nth-child(1) {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.text p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.call {
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-right: 150px; 
+}
